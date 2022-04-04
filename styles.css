@@ -2,9 +2,13 @@ h1 {
   color: gold;
 }
 
+h2 {
+  color: azure;
+}
 #pageLinks {
   text-align: right;
 }
+
 body {
   background-image: url(./Images/lightbulb-dark.jpg);
   background-size: cover;
