@@ -1,7 +1,11 @@
 h1 {
-  color: red;
+  color: gold;
 }
 
 #pageLinks {
   text-align: right;
+}
+body {
+  background-image: url(./Images/lightbulb-dark.jpg);
+  background-size: cover;
 }
