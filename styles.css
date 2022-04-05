@@ -1,6 +1,7 @@
 h1 {
   color: gold;
   font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h2 {
@@ -11,6 +12,6 @@ h2 {
 }
 
 body {
-  background-image: url(./Images/lightbulb-dark.jpg);
-  background-size: cover;
+  background-image: url(./Images/Laptop.jpg);
+  background-size: contain;
 }
