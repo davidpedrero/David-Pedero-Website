@@ -7,11 +7,11 @@ h1 {
 h2 {
   color: azure;
 }
-#pageLinks {
-  text-align: right;
+
+.header {
+  background-color: aqua;
 }
 
-body {
-  background-image: url(./Images/Laptop.jpg);
-  background-size: contain;
+#pageLinks {
+  text-align: right;
 }
