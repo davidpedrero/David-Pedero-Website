@@ -19,14 +19,19 @@ h2 {
 
 .top-nav {
   overflow: hidden;
-  background-color:navy;
+  background-color: navy;
 }
 
 .top-nav a {
   float: left;
-  display:block;
-  color:aquamarine;
+  display: block;
+  color: aquamarine;
   text-align: center;
   padding: 2em 10em;
   text-decoration: none;
+}
+
+.column {
+  width: 50%;
+  float: left;
 }
