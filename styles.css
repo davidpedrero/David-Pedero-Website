@@ -18,7 +18,8 @@ h2 {
 }
 
 .top-nav {
-  overflow: hidden;
+  display: block;
+  flex-direction: column;
   background-color: navy;
 }
 
