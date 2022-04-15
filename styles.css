@@ -17,10 +17,15 @@ h2 {
   text-align: right;
 }
 
-.top-nav {
-  display: block;
-  flex-direction: column;
+.nav-container {
+  display: flex;
+  padding: 1em;
   background-color: navy;
+  overflow: hidden;
+}
+
+.top-nav {
+
 }
 
 .top-nav a {
@@ -30,6 +35,7 @@ h2 {
   text-align: center;
   padding: 2em 10em;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .column {
