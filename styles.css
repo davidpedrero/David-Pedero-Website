@@ -1,3 +1,8 @@
+.page__background {
+  background: rgb(2, 2, 70);
+  background: linear-gradient(90deg, rgba(2, 2, 70, 1) 0%, rgba(2, 2, 61, 1) 6%, rgba(0, 0, 0, 1) 73%, rgba(59, 2, 60, 1) 94%, rgba(145, 1, 84, 1) 100%);
+}
+
 h1 {
   color: red;
   font-size: 3em;
@@ -9,7 +14,6 @@ h2 {
 }
 
 .header {
-  background-color: aqua;
   text-align: center;
 }
 
@@ -19,8 +23,6 @@ h2 {
 
 .nav-container {
   display: flex;
-  padding: 1em;
-  background-color: navy;
   overflow: hidden;
 }
 
