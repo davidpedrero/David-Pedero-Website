@@ -24,9 +24,9 @@ h2 {
   overflow: hidden;
 }
 
-.top-nav {
+/* .top-nav {
 
-}
+} */
 
 .top-nav a {
   float: left;
@@ -38,7 +38,19 @@ h2 {
   font-size: 1rem;
 }
 
-.column {
-  width: 50%;
-  float: left;
+.background__image-container {
+background: rgb(2, 2, 70);
+background: linear-gradient(90deg, rgba(2, 2, 70, 1) 0%, rgba(2, 2, 61, 1) 6%, rgba(0, 0, 0, 1) 73%, rgba(59, 2, 60, 1) 94%, rgba(145, 1, 84, 1) 100%);
+margin: 2px;
+
+}
+.background__image {
+  display: flex;
+  justify-content: center;
+  background-image: url("./Images/cool-image.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 500px;
+  width: 600px;
+  background-size: 100%;
 }
