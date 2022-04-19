@@ -1,12 +1,21 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 .page__background {
   background: rgb(2, 2, 70);
   background: linear-gradient(90deg, rgba(2, 2, 70, 1) 0%, rgba(2, 2, 61, 1) 6%, rgba(0, 0, 0, 1) 73%, rgba(59, 2, 60, 1) 94%, rgba(145, 1, 84, 1) 100%);
+  margin-top: 0%;
+  padding-top: 0%;
 }
 
 h1 {
   color: red;
   font-size: 3em;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-top: 0%;
+  margin-top: 0%;
 }
 
 h2 {
@@ -49,7 +58,6 @@ margin: 2px;
 .background__image {
   display: flex;
   justify-content: center;
-  background-image: url("./Images/cool-image.jpg");
   background-repeat: no-repeat;
   margin: 0 auto;
   height: 500px;
